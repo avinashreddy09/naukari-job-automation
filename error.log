@@ -1,0 +1,25 @@
+2025-10-22T12:13:32.528459 - Search Error: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=140.0.7339.210); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff608721eb5+80197]
+	GetHandleVerifier [0x0x7ff608721f10+80288]
+	(No symbol) [0x0x7ff6084a02fa]
+	(No symbol) [0x0x7ff60848c0a5]
+	(No symbol) [0x0x7ff6084b144a]
+	(No symbol) [0x0x7ff608527be6]
+	(No symbol) [0x0x7ff608548132]
+	(No symbol) [0x0x7ff608520153]
+	(No symbol) [0x0x7ff6084e8b02]
+	(No symbol) [0x0x7ff6084e98d3]
+	GetHandleVerifier [0x0x7ff6089de83d+2949837]
+	GetHandleVerifier [0x0x7ff6089d8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6089f86c7+3055959]
+	GetHandleVerifier [0x0x7ff60873cfee+191102]
+	GetHandleVerifier [0x0x7ff6087450af+224063]
+	GetHandleVerifier [0x0x7ff60872af64+117236]
+	GetHandleVerifier [0x0x7ff60872b119+117673]
+	GetHandleVerifier [0x0x7ff6087110a8+11064]
+	BaseThreadInitThunk [0x0x7ffa3929e8d7+23]
+	RtlUserThreadStart [0x0x7ffa3a028d9c+44]
+
