@@ -35,11 +35,7 @@
 - 🎯 **Smart Filtering** - Automatically avoids already applied jobs
 - 🚀 **Easy Setup** - Simple configuration with environment variables
 - 📈 **Statistics Tracking** - Real-time monitoring of success/failure rates
-- 🔒 **Stealth Mode** - Anti-detection measures to appear human-like
-
-## 🎥 Demo
-
-*(Add a screenshot or GIF of the bot in action here)*
+- 🔒 **Stealth Mode** - Anti-detection measures to appear human-lik
 
 ## 📋 Prerequisites
 
@@ -50,7 +46,5 @@ Before you begin, ensure you have the following installed:
 - **Gemini API Key** - [Get API Key](https://makersuite.google.com/app/apikey)
 - **2Captcha API Key** (Optional) - [Get API Key](https://2captcha.com/)
 
-## 🚀 Installation
 
-### 1. Clone the repository
 
