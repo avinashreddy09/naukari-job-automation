@@ -45,12 +45,8 @@ Before you begin, ensure you have the following installed:
 - **Google Chrome** - [Download Chrome](https://www.google.com/chrome/)
 - **Gemini API Key** - [Get API Key](https://makersuite.google.com/app/apikey)
 - **2Captcha API Key** (Optional) - [Get API Key](https://2captcha.com/)
-## Live git bash modification
-## Live Git Bash Modification
+## New feature : job auto-apply flow"
 
-This change was made using Git Bash as part of a practical demonstration
-to show real-time version control operations including staging, committing,
-and pushing changes to GitHub.
 
 
 
