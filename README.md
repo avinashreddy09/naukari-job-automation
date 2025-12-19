@@ -10,7 +10,7 @@
 ## 📖 Table of Contents
 
 - [Features](#features)
-- [Demo](#demo)
+- [Demo](#Demo)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Configuration](#configuration)
