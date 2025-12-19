@@ -52,4 +52,6 @@ Before you begin, ensure you have the following installed:
 
 
 
+=======
+>>>>>>> 78b5fe9 ( removed the last two lines)
 
