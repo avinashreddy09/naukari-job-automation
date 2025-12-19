@@ -1,7 +1,4 @@
 
-FEATURE BRANCH
-BUGFIX BRANCH CHANGE
-
 # 🤖 Naukri Job Automation Bot
 
 > Automate your job applications on Naukri.com with AI-powered answers and intelligent CAPTCHA solving!
@@ -52,6 +49,10 @@ Before you begin, ensure you have the following installed:
 
 
 
+
 =======
 >>>>>>> 78b5fe9 ( removed the last two lines)
 
+=======
+## added content
+>>>>>>> 87f00ed ( added content)
