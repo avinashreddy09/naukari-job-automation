@@ -1,4 +1,6 @@
+
 FEATURE BRANCH
+BUGFIX BRANCH CHANGE
 
 # 🤖 Naukri Job Automation Bot
 
@@ -12,7 +14,7 @@ FEATURE BRANCH
 ## 📖 Table of Contents
 
 - [Features](#features)
-- [Demo](#demo)
+- [Demo](#Demo)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Configuration](#configuration)
