@@ -4,6 +4,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
+
 import time
 import random
 from datetime import datetime
@@ -13,15 +16,15 @@ try:
     from utils import generate_ai_answer, solve_captcha, log_error, write_stats_to_file
     USE_CONFIG = True
 except ImportError:
-    # Fallback to hardcoded values if config not available
     USE_CONFIG = False
     import google.generativeai as genai
     import requests
+
     
     # ⚠️ IMPORTANT: Replace these with your actual credentials
     # DO NOT commit actual credentials to GitHub!
-    NAUKRI_USERNAME = ""  # Your Naukri email
-    NAUKRI_PASSWORD = ""  # Your Naukri password
+    NAUKRI_USERNAME = "avinashreddydonthireddy2006@gmail.com"  # Your Naukri email
+    NAUKRI_PASSWORD = "Cch@092006"  # Your Naukri password
     TWOCAPTCHA_API_KEY = ""  # Optional: Your 2Captcha API key
     GEMINI_API_KEY = ""  # Required: Your Google Gemini API key
     
@@ -124,18 +127,25 @@ def random_delay(min_sec=2, max_sec=5):
     time.sleep(random.uniform(min_sec, max_sec))
 
 def setup_driver():
-    """Setup Chrome driver with stealth options"""
+    """Setup Chrome driver (Windows-stable, visible browser)"""
     chrome_options = Options()
+
     chrome_options.add_argument('--no-sandbox')
     chrome_options.add_argument('--disable-dev-shm-usage')
     chrome_options.add_argument('--disable-blink-features=AutomationControlled')
-    chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
-    chrome_options.add_experimental_option('useAutomationExtension', False)
-    
-    driver = webdriver.Chrome(options=chrome_options)
-    driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+
+    # IMPORTANT: make Chrome visible
+    chrome_options.add_argument("--start-maximized")
+
+    # ❌ REMOVE stealth JS override (breaks Chrome on Windows)
+    # driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+
+    service = Service(ChromeDriverManager().install())
+    driver = webdriver.Chrome(service=service, options=chrome_options)
+
     driver.set_window_size(1920, 1080)
     return driver
+
 
 def login_to_naukri(driver):
     """Login to Naukri.com"""

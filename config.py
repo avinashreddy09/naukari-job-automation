@@ -16,7 +16,7 @@ class Config:
     GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
     
     # Search Settings
-    JOB_SEARCH_QUERY = os.getenv('JOB_SEARCH_QUERY', 'software-engineer-jobs')
+    JOB_SEARCH_QUERY = os.getenv('JOB_SEARCH_QUERY', 'video editor')
     MAX_JOBS_PER_CYCLE = int(os.getenv('MAX_JOBS_PER_CYCLE', '10'))
     WAIT_TIME_MIN = int(os.getenv('WAIT_TIME_MIN', '5'))
     WAIT_TIME_MAX = int(os.getenv('WAIT_TIME_MAX', '10'))

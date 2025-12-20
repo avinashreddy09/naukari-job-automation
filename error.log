@@ -23,3 +23,60 @@ Stacktrace:
 	BaseThreadInitThunk [0x0x7ffa3929e8d7+23]
 	RtlUserThreadStart [0x0x7ffa3a028d9c+44]
 
+2025-12-20T09:05:56.628422 - Login Error: Please set NAUKRI_USERNAME and NAUKRI_PASSWORD
+2025-12-20T09:21:09.838560 - Login Error: Please set NAUKRI_USERNAME and NAUKRI_PASSWORD
+2025-12-20T09:27:07.700746 - Search Error: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=143.0.7499.110); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xc312d3
+	0xc31314
+	0xa1e6dd
+	0xa0d99e
+	0xa2c4e6
+	0xa921d8
+	0xaad44c
+	0xa8b2e6
+	0xa5d321
+	0xa5e1d4
+	0xe85314
+	0xe808cb
+	0xe9d1aa
+	0xc4b1d8
+	0xc531dd
+	0xc395d8
+	0xc39799
+	0xc23b28
+	0x76425d49
+	0x779bd5db
+	0x779bd561
+
+2025-12-20T09:29:41.813798 - Search Error: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=143.0.7499.110); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x6b12d3
+	0x6b1314
+	0x49e6dd
+	0x48d99e
+	0x4ac4e6
+	0x5121d8
+	0x52d44c
+	0x50b2e6
+	0x4dd321
+	0x4de1d4
+	0x905314
+	0x9008cb
+	0x91d1aa
+	0x6cb1d8
+	0x6d31dd
+	0x6b95d8
+	0x6b9799
+	0x6a3b28
+	0x76425d49
+	0x779bd5db
+	0x779bd561
+
+2025-12-20T09:41:44.008621 - Login Error: name 'NAUKRI_USERNAME' is not defined
