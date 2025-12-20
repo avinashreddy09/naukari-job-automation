@@ -3,7 +3,7 @@ __pycache__/
 *.pyc
 .venv/
 venv/
-
+exracted the files
 # Ignore secrets
 .env
 logs/
