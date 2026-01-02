@@ -23,8 +23,8 @@ except ImportError:
     
     # ⚠️ IMPORTANT: Replace these with your actual credentials
     # DO NOT commit actual credentials to GitHub!
-    NAUKRI_USERNAME = "avinashreddydonthireddy2006@gmail.com"  # Your Naukri email
-    NAUKRI_PASSWORD = "Cch@092006"  # Your Naukri password
+    NAUKRI_USERNAME = ""  # Your Naukri email
+    NAUKRI_PASSWORD = ""  # Your Naukri password
     TWOCAPTCHA_API_KEY = ""  # Optional: Your 2Captcha API key
     GEMINI_API_KEY = ""  # Required: Your Google Gemini API key
     
