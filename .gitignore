@@ -1,4 +1,4 @@
-# Ignore Python files
+# Ignore Python file
 __pycache__/
 *.pyc
 .venv/
@@ -6,5 +6,6 @@ venv/
 # Ignore secrets
 .env
 logs/
+
 
 
